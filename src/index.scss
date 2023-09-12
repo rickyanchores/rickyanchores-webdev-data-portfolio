@@ -1,0 +1,33 @@
+@import "./App.scss";
+
+
+//CUSTOM COLORS
+$mainBgColor: black;
+$secondaryBgColor: #333;
+$primaryColor: whitesmoke;
+$secondaryColor: coral; 
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+body{
+  background: $mainBgColor;
+  color: $primaryColor;
+  font-family: monospace;
+}
+
+button{
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.container{
+  height: 100vh;
+  background: $secondaryBgColor;
+}
